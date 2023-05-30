@@ -7,9 +7,19 @@
     
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/style.css">
-    <title>ToDoタスク</title>
+    <title>ToDoBot</title>
 </head>
 <body>
+ <h1>ToDoBot</h1>
+<form id="taskForm">
+    <input type="text" id="taskName" placeholder="タスク名">
+    <!-- <input type="number" id="taskTime" placeholder="必要時間（分）"> -->
+    <button type="submit" id="add">追加</button>
+</form>
+
+<table id="taskList">
+    <!-- タスクリストがここに表示されます -->
+</table>
 
 
 
@@ -17,11 +27,6 @@
 
 
 
-
-
-
-
-    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="./js/test.js"></script>
 </body>
